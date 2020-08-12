@@ -14,3 +14,20 @@
     font-family: 'Antic Slab', serif;
     letter-spacing: 1px;
 }
+
+.container>.flex-item:first-child {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    right: 35%;
+    font-size: 24px;
+}
+
+.container>.flex-item:last-child {
+    position: absolute;
+    top: 65%;
+    left: 35%;
+    right: 35%;
+    font-size: 18px;
+    margin-top: 10px;
+}
